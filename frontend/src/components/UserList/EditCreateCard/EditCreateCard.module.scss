@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap");
+
+.dialog [class~="p-dialog-header"] {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.inputDiv [class~="p-inputtext"] {
+  border: none;
+  border-bottom: 1px solid #c8c5d1;
+  border-radius: 0px;
+}
+
+.inputDiv {
+  margin: 10px auto 10px auto;
+  display: flex;
+  flex-direction: column;
+
+  .labelInput {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+.header {
+  text-align: center;
+  margin-left: 12px;
+}
+
+.buttonsConfirm {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+
+  .buttons {
+    margin: 8px;
+    .buttonConfirm {
+      background: #9873ff;
+    }
+    .buttonCancel {
+      color: black;
+      font-family: "Open Sans";
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+    }
+  }
+}
+
+.buttonInput {
+  margin: 25px 0 25px 0;
+  background: #c8c5d1;
+
+  .buttonAddInput {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+   
+  }
+}
+
+.buttonInput [class~='p-button-label'] {
+  color: black;
+}
+
+.dropdown {
+  background: #C8C5D1;
+}
+
+.buttonDel {
+  color: #C8C5D1;
+}

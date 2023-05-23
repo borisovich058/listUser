@@ -1,0 +1,19 @@
+{
+  "name": "crm-backend",
+  "private": true,
+  "main": "index.js",
+  "devDependencies": {
+    "axios": "^0.21.4",
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}
